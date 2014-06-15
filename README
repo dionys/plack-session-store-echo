@@ -1,10 +1,12 @@
 NAME
 
-Plack::Session::Store::Echo - Blah-blah
+Plack::Session::Store::Echo - Echo store for Plack::Middleware::Session.
 
 DESCRIPTION
 
-Blah-blah.
+Sometimes you want only mark new client with cookie and don't want to store
+something in your sessions, so you can use this one. For any session identifier
+this store tells that the session exists.
 
 INSTALLATION
 

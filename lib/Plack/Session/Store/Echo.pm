@@ -6,7 +6,7 @@ use warnings;
 use parent 'Plack::Session::Store';
 
 
-our $VERSION = '0.01';
+our $VERSION = '1.00';
 
 
 sub new    { return bless({}, shift()); }
