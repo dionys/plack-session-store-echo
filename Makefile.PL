@@ -14,9 +14,12 @@ WriteMakefile(
 	LICENSE          => 'perl',
 	MIN_PERL_VERSION => '5.8.0',
 	BUILD_REQUIRES   => {
-		'Test::More' => 0,
+		'Test::More'                 => 0,
 	},
-	PREREQ_PM        => {},
+	PREREQ_PM        => {
+		'parent'                     => 0,
+		'Plack::Middleware::Session' => 0,
+	},
 	META_MERGE       => {
 		resources => {
 			license     => 'http://dev.perl.org/licenses/',
