@@ -1,2 +1,0 @@
-plack-session-store-echo
-========================
